@@ -1,0 +1,604 @@
+@font-face {
+    font-family: intro;
+    src: url("./fonts/intro.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cid-rzSubsXLCL button.navbar-toggler .hamburger span {
+    height: 3px;
+    background-color: #a84f74;
+}
+
+/*.cid-rzSubsXLCL button.navbar-toggler .hamburger span:nth-child(1)*/
+
+.text-white {
+    color: #FFF;
+}
+.text-pink {
+
+    color: #a84f74;
+}
+
+.text-pink:hover,
+.cid-rzSubsXLCL .nav-link:hover {
+    color: #c87ca3 !important;
+}
+
+
+
+.logo {
+    height: 56px;
+}
+
+
+.navbar-dropdown .navbar-logo {
+    margin: 20px;
+}
+
+
+.navbar-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.navbar-contacts {}
+
+
+.fav-vb2-white::before,
+.fav-in2-white::before,
+.fav-fb2-white::before,
+.fav-fb-white::before,
+.fav-in-white::before,
+.fav-viber::before,
+.fav-in::before,
+.fav-fb::before {
+    display: inline-block;
+    content: " ";
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    
+
+}
+
+.fav-vb2-white::before {
+    background: url(./images/fav-vb2-white.png) ;
+    background-size: 100%;
+    margin-right: 1rem;
+    margin-left: 0;
+    vertical-align: middle;
+}
+.fav-in2-white::before {
+    background: url(./images/fav-in2-white.png) ;
+    background-size: 100%;
+    margin-right: 1rem;
+    margin-left: 0;
+    vertical-align: middle;
+}
+.fav-fb2-white::before {
+    background: url(./images/fav-fb2-white.png) no-repeat ;
+    background-size: 100%;
+    margin-right: 1rem;
+    margin-left: 0;
+     width: 16px;
+     vertical-align: middle;
+       
+}
+.fav-fb-white::before {
+    background: url(./images/fav-fb-white.png)  no-repeat;
+        height: 50px;
+        width: 50px;
+    background-size: 100%;
+     margin: 1rem;
+}
+.fav-in-white::before {
+    background: url(./images/fav-in-white.png)  no-repeat;
+            height: 50px;
+            width: 50px;
+    background-size: 100%;
+     margin: 1rem;
+}
+
+
+.fav-viber::before {
+    background: url(./images/viber.png);
+}
+
+.fav-in::before {
+    background: url(./images/in.png);
+
+}
+
+.fav-fb::before {
+    background: url(./images/fb.png);
+    height: 28px;
+    width: 28px;
+}
+
+
+
+
+
+.text-contact {
+
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 30px;
+
+}
+
+.nav-item {
+    margin: 10px auto;
+}
+
+.text-nav-custom {
+    font-size: 20px;
+    font-family: "Intro";
+    color: #a94f74;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.text-pink-big {
+    font-size: 48px;
+    font-family: "Intro";
+    color: rgb(169, 79, 116);
+
+}
+
+.text-pink-mid {
+    font-size: 20px;
+    font-family: "Calibri";
+    color: rgb(169, 79, 116);
+
+}
+
+.top-60p {
+    top: 60% !important;
+}
+
+
+.btn-participate {
+    font-size: 28px;
+    color: rgb(169, 79, 116);
+    line-height: 1.25;
+}
+
+
+.btn-participate,
+.btn-participate:active {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 0 !important;
+    color: rgb(169, 79, 116) !important;
+
+}
+
+.btn-participate:hover,
+.btn-participate:focus,
+.btn-participate.focus,
+.btn-participate.active {
+    color: white !important;
+    background-color: rgba(169, 79, 116, 0.5) !important;
+    border: 0 !important;
+     !important;
+}
+
+/*
+color: rgba(255, 255, 255, 0.5);
+color: rgba(169, 79, 116, 0.5);
+  color: rgb(169, 79, 116);*/
+
+
+.about-me {
+    /*font-weight: bold;*/
+    text-indent: 1.5em;
+    /* Отступ первой строки */
+    text-align: justify;
+    /* Выравнивание по ширине */
+    padding-left: 4em;
+}
+
+
+.about-me-title {
+    margin-top: 50px;
+}
+
+
+
+.correction-prepared-for-you {
+    font-size: 37.5px;
+    font-family: "Intro";
+    color: white;
+    line-height: 1.28;
+    text-shadow: 0px 6px 8px rgba(40, 40, 39, 0.1);
+    text-align: center;
+
+}
+
+
+
+.cid-rA3iL7ltMW .correction-prepared-for-you-items {
+    /*font-size: 20px;*/
+    font-family: "Intro";
+    color: white;
+    text-shadow: 0px 10px 0px rgba(36, 36, 36, 0.1);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.correction-prepared-for-you--hover-effect:hover {
+    transition: background-color .2s ease-in-out;
+    background-color: rgba(200, 124, 163, .5);
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+}
+
+
+.cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 28px;
+    font-family: "Intro";
+    color: rgb(169, 79, 116);
+    text-align: center;
+}
+
+.cid-rA346WK9bM .text-about-marafon {
+    font-family: "Calibri";
+    color: rgb(169, 79, 116);
+    font-style: italic;
+    background-color: white;
+    text-align: left;
+    padding: 1.5em;
+}
+
+.bgr-color-light-pink {
+    background-color: #eeddd7;
+}
+
+.cid-rA346WK9bM .text-about-marafon-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.footer-contacts-big {
+font-size: 36px;
+font-family: "Intro";
+}
+
+.footer-contacts {
+    font-size: 24px;
+    font-family: "Calibri";
+    /*font-weight: bold;*/
+    line-height: 30px;
+    margin-bottom: 2rem;
+  display: block;
+  /*text-align: left;*/
+  vertical-align: middle;
+}
+
+.cid-rA34kXvjCP .footer-lower hr {
+
+    display: block;
+      height: 2px;
+      width: 35%;
+      margin: 1rem auto;
+      border-top: 2px solid white;
+      opacity: .5;
+ 
+}
+
+.cid-rA34kXvjCP .mbr-text {
+     color: #white; 
+}
+
+.footer-social-big {
+    display: inline-block;
+     text-align: center;
+    
+    
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0.5);
+        -webkit-border-radius: 0;
+                border-radius: 0;
+                border: 0;
+}
+
+.mbr-form .input-group-btn button[type="submit"]  {
+    -webkit-border-radius: 0 !important;
+            border-radius: 0 !important;
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        color: #FFF !important;
+        border: 0;
+
+}
+
+
+.mbr-form .input-group-btn button[type="submit"] :hover {
+
+        background-color: rgba(255, 255, 255, 1) !important;
+        color: rgb(169, 79, 116) !important;
+
+}
+
+
+
+
+@media only screen and (max-width: 1450px) {
+
+
+    .cid-rzSubsXLCL .navbar-toggleable-sm .navbar-collapse {
+        padding-right: 2rem;
+    }
+
+    .cid-rzSubsXLCL button.navbar-toggler .hamburger span {
+        height: 3px;
+        background-color: #a84f74;
+    }
+
+    /*.cid-rzSubsXLCL button.navbar-toggler .hamburger span:nth-child(1)*/
+
+    .text-pink {
+
+        color: #a84f74;
+    }
+
+    .text-pink:hover,
+    .cid-rzSubsXLCL .nav-link:hover {
+        color: #c87ca3 !important;
+    }
+
+
+    .logo {
+        height: 56px;
+    }
+
+
+    .navbar-dropdown .navbar-logo {
+        margin: 10px;
+    }
+
+
+    .navbar-custom {
+        padding-right: 2rem;
+    }
+
+  
+
+    .fav-viber::before,
+    .fav-in::before,
+    .fav-fb::before {
+        display: inline-block;
+        content: " ";
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        vertical-align: middle;
+
+    }
+
+    .fav-viber::before {
+        background: url(./images/viber.png);
+    }
+
+    .fav-in::before {
+        background: url(./images/in.png);
+
+    }
+
+    .fav-fb::before {
+        background: url(./images/fb.png);
+        height: 28px;
+        width: 28px;
+    }
+
+    .text-contact {
+
+        font-size: 16px;
+        font-family: "Calibri";
+        color: #a94f74;
+        font-weight: bold;
+        line-height: 30px;
+        margin-right: 10px;
+    }
+
+    .nav-item {
+        margin: 10px auto;
+    }
+
+    .text-nav-custom {
+        font-size: 14px;
+        font-family: "Intro";
+        color: #a94f74;
+        margin: 10px auto !important;
+        text-align: center;
+    }
+
+    .text-pink-big {
+        font-size: 32px;
+        font-family: "Intro";
+        color: rgb(169, 79, 116);
+
+    }
+
+    .text-pink-mid {
+        font-size: 16px;
+        font-family: "Calibri";
+        color: rgb(169, 79, 116);
+
+    }
+
+    .top-60p {
+        top: 60% !important;
+    }
+
+
+    .btn-participate {
+        font-size: 24px;
+        color: rgb(169, 79, 116);
+        line-height: 1.25;
+    }
+
+
+    .btn-participate,
+    .btn-participate:active {
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        border: 0 !important;
+        color: rgb(169, 79, 116) !important;
+
+    }
+
+    .btn-participate:hover,
+    .btn-participate:focus,
+    .btn-participate.focus,
+    .btn-participate.active {
+        color: white !important;
+        background-color: rgba(169, 79, 116, 0.5) !important;
+        border: 0 !important;
+         !important;
+    }
+
+    /*
+color: rgba(255, 255, 255, 0.5);
+color: rgba(169, 79, 116, 0.5);
+  color: rgb(169, 79, 116);*/
+
+
+    .about-me {
+        /*font-weight: bold;*/
+        text-indent: 1.5em;
+        /* Отступ первой строки */
+        text-align: justify;
+        /* Выравнивание по ширине */
+        padding-left: 3em;
+        padding-right: 1em;
+    }
+
+
+    .about-me-title {
+        margin-top: 50px;
+    }
+
+
+
+    .correction-prepared-for-you {
+        font-size: 32px;
+        font-family: "Intro";
+        color: white;
+        line-height: 1.28;
+        text-shadow: 0px 6px 8px rgba(40, 40, 39, 0.1);
+        text-align: center;
+
+    }
+
+
+
+    .cid-rA3iL7ltMW .correction-prepared-for-you-items {
+        /*font-size: 20px;*/
+        font-family: "Intro";
+        color: white;
+        text-shadow: 0px 10px 0px rgba(36, 36, 36, 0.1);
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .correction-prepared-for-you--hover-effect:hover {
+        transition: background-color .2s ease-in-out;
+        background-color: rgba(200, 124, 163, .5);
+        -webkit-border-radius: 0;
+        border-radius: 0;
+
+    }
+
+
+    .cid-rzSzBBUp5h .feedback-big-text {
+        font-size: 20px;
+        font-family: "Intro";
+        color: rgb(169, 79, 116);
+        text-align: center;
+    }
+
+    .cid-rA346WK9bM .text-about-marafon {
+        font-family: "Calibri";
+        color: rgb(169, 79, 116);
+        font-style: italic;
+        background-color: white;
+        text-align: left;
+        padding: 1.5em;
+    }
+
+    .bgr-color-light-pink {
+        background-color: #eeddd7;
+    }
+
+    .cid-rA346WK9bM .text-about-marafon-author {
+        font-weight: bold;
+        text-align: right;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .cid-rzSubsXLCL .menu-logo .navbar-brand {
+        margin-left: 2rem;
+        margin-right: 0.5rem;
+    }
+   .cid-rzSubsXLCL .navbar {
+        padding-bottom: 0;
+       
+   }
+
+
+}
+
+
+@media only screen and (max-width: 1125px) {
+    .cid-rzSubsXLCL .menu-logo .navbar-brand {
+        margin-left: 1rem;
+        margin-right: 0.25rem;
+    }
+
+    .cid-rzSubsXLCL .navbar-toggleable-sm .navbar-collapse {
+        padding-right: 1rem;
+    }
+        .text-pink-big {
+        font-size: 18px;
+
+
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+      .navbar-contacts {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .cid-rzSubsXLCL .menu-logo .navbar-brand {
+        margin-left: 1rem;
+        margin-right: 0.25rem;
+    }
+
+.cid-rzSubsXLCL .navbar.navbar-short .navbar-logo a img {
+    height: 1.5rem !important;
+}
+
+.cid-rzSubsXLCL img {
+    height: 2rem !important;
+    
+}
+
+.footer-contacts {
+    font-size: 20px;}
+}
