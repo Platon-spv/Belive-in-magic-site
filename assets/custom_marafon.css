@@ -5,10 +5,12 @@
     font-style: normal;
 }
 
+
 .cid-rzSubsXLCL button.navbar-toggler .hamburger span {
     height: 3px;
     background-color: #a47f;
 }
+
 
 
 @media (max-width: 991px) {
@@ -181,10 +183,7 @@
    
 }
 
-/*
-color: rgba(255, 255, 255, 0.5);
-color: rgba(169, 79, 116, 0.5);
-  color: rgb(169, 79, 116);*/
+
 .about-me {
 
     /*font-weight: bold;*/
@@ -569,8 +568,706 @@ color: rgba(169, 79, 116, 0.5);
 }
 
 
-
-
 /*--------------------------------------------*/
 
+.cid-rCwz8YXjKD .container {
+    
+    margin-top: 10%;
 
+}
+
+
+#carousel-example-multi > div > div > div {
+    padding-left: 0;    
+    padding-right: 0; 
+
+}
+
+
+.header2-14 {
+    background-position: 50% 0%;}
+
+.first-screen_text-size {
+    
+  font-size: 50px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1.167;
+  text-align: center;
+  font-weight: 500;
+}
+
+.first-screen_text-size_second-line {
+  font-size: 50px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1.167;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cid-rzSuZT9ydo .mbr-figure {
+
+    padding-left: 0;
+
+}
+
+
+.about-me_marafon {
+text-align: right;
+font-size: 42px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  font-weight: bold;
+  line-height: 1.8;
+  font-weight: 500;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.about-me_marafon-title {
+   font-size: 58px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1.286;  
+  font-weight: 500; 
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width:1400px) {
+
+    .first-screen_text-size_second-line, .first-screen_text-size {
+        font-size: 40px;
+    }
+    
+    .about-me_marafon {
+        font-size: 36px;
+    }
+    .about-me_marafon-title {
+        font-size: 42px;
+    }
+
+
+}
+@media only screen and (max-width:1050px) {
+    
+    .about-me_marafon {
+        font-size: 28px;
+    }
+    .about-me_marafon-title {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .cid-rzSubsXLCL .dropdown .dropdown-menu .dropdown-item {
+    white-space: normal;
+}
+
+.about-me_marafon {
+
+    text-align: center;}
+
+    .cid-rzSubsXLCL .navbar-toggleable-sm .navbar-collapse {
+        width: 100vw;
+    }
+
+}
+
+
+@media only screen and (max-width:540px) {
+
+        .first-screen_text-size_second-line, .first-screen_text-size {
+        font-size: 28px;
+    }
+
+    .about-me_marafon-title {
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+
+
+.cid-rzSubsXLCL .dropdown .dropdown-menu .dropdown-item {
+    white-space: normal;
+    padding: 0 0 0 0 !important; 
+}
+
+}
+
+@media only screen and (max-width:330px) {
+
+        .first-screen_text-size_second-line, .first-screen_text-size {
+        font-size: 22px;        
+    }
+        .about-me_marafon {
+        font-size: 16px;
+    }
+    .about-me_marafon-title {
+        font-size: 18px;
+        padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+}
+
+
+.navbar-dropdown-open .navbar-dropdown {
+    bottom: 0;
+}
+
+nav.navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fixed-top.navbar-toggleable-sm.opened {
+    bottom: 0;
+}
+
+
+/*.cid-rzSubsXLCL .navbar-collapse.collapsing, .cid-rzSubsXLCL .navbar-collapse.show {
+    
+
+}
+
+.navbar-dropdown-open  .navbar-dropdown .navbar-toggleable-sm {
+    height: 100vh;
+    bottom: 0;
+}
+    */
+
+
+.marafon-main-title {
+  font-size: 58px;
+  font-family: "Intro";
+  color: white;
+  font-weight: normal;
+  
+  line-height: 1.286;
+}
+
+
+.marafon-text-description {
+  font-size: 40px;
+  font-family: "Calibri";
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+
+section.cid-rCwz8YfsfXjKD.mbr-fullscreen {
+ background-color: rgb(169, 79, 116);
+ color: #FFF;
+ 
+ align-items: center;
+ -webkit-align-items: start;
+}
+
+
+section.cid-rCwz8YXjK.mbr-fullscreen {
+      background-color: #FFF;
+
+}
+
+.what-will-we-do > p {
+  text-indent: 1em;
+}
+
+.what-will-we-do {
+  font-size: 40px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  
+  
+}
+
+.what-will-we-do p:first-of-type {
+  padding-top: 1em;
+  padding-bottom: 1em;
+} 
+
+.marafon-theme_title-text {
+  font-size: 40px;
+  font-family: "Intro";
+  color: #FFF;
+  line-height: 1.4;
+
+}
+
+.marafon-themes_text {
+ font-size: 40px;
+ font-family: "Calibri";
+  color: rgb(249, 249, 249);
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 3em;    
+}
+
+section {
+    counter-reset: section;   
+}
+
+.marafon-themes_text::before {
+    margin-top: 0.2em;
+    margin-left: -2em;
+    display: block;
+    position: absolute;
+    width: 1.4em;
+    height: 1.4em;
+    counter-increment: section;
+    content: counter(section);
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    border-color: white;
+    border-width: .15em;
+    border-style: solid;
+    text-align: center;
+    line-height: 1.15em;
+}
+
+.cid-rCwz8YXjKaadas .mbr-fullscreen {
+    text-indent: 0;
+}
+
+section.cid-rCwz8YXjKaadas {
+    background-color: #FFF;
+}
+
+
+.cid-rCwz8YXjKaadas .how-where-title{
+  font-size: 70px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1em;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.cid-rCwz8YXjKaadas .how-where-title:not(:first-child) {
+padding-top: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text {
+  font-size: 40px;
+  font-family: "Calibri";
+  font-weight: bold;
+  color: rgb(169, 79, 116);
+  line-height: 1.063;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.cid-rCwz8YXjKaadas .how-where_text:last-child {
+padding-bottom: 2em;
+
+}
+.cid-rCwz8YXjKaadas .how-where_numbers {
+  font-size: 48px;
+    
+}
+
+
+.cid-rCwz8YXjKaadas .how-where_dates {
+  font-size: 40px;
+  font-family: "Intro"; 
+  color: rgb(169, 79, 116);  
+  line-height: 1em;
+  text-align: center;
+  font-weight: normal;
+   
+}
+.cid-rCwz8YXjKaadas .how-where_dates:last-child {
+padding-bottom: 1.5em;
+
+}
+
+
+.cid-rCwz8YfsfXsadajKD{
+    
+  background-color: rgb(169, 79, 116);
+
+}
+
+.marafon-after-finishing-title {
+font-size: 50px;
+  font-family: "Intro";
+  color: #FFF;
+  line-height: 1.167;
+  text-align: center;
+    padding-top: 1em;
+  padding-bottom: 1em;
+      margin-bottom: 0;
+}
+
+
+@media only screen and (max-width:1050px) {
+
+
+.marafon-main-title {
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+.marafon-text-description {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.what-will-we-do > p {
+  text-indent: 1em;
+}
+
+.what-will-we-do {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.what-will-we-do p:first-of-type {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.marafon-theme_title-text {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.marafon-themes_text {
+  font-size: 36px;
+  line-height: 1.8;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+.marafon-themes_text::before {
+  margin-top: 0.2em;
+  margin-left: -2em;
+  width: 1.4em;
+  height: 1.4em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  border-width: .15em;
+  line-height: 1.15em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title {
+  font-size: 60px;
+  line-height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title:not(:first-child) {
+  padding-top: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text {
+  font-size: 36px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text:last-child {
+  padding-bottom: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_numbers {
+  font-size: 40px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates {
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates:last-child {
+  padding-bottom: 1.5em;
+}
+
+.marafon-after-finishing-title {
+  font-size: 40px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+
+}
+
+@media (max-width: 991px) {
+
+
+
+
+.what-will-we-do > p {
+  text-indent: 1em;
+}
+
+.what-will-we-do {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.what-will-we-do p:first-of-type {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.marafon-theme_title-text {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.marafon-themes_text {
+  font-size: 30px;
+  line-height: 1.8;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+.marafon-themes_text::before {
+  margin-top: 0.2em;
+  margin-left: -2em;
+  width: 1.4em;
+  height: 1.4em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  border-width: .15em;
+  line-height: 1.15em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title {
+  font-size: 48px;
+  line-height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title:not(:first-child) {
+  padding-top: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text {
+  font-size: 30px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text:last-child {
+  padding-bottom: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_numbers {
+  font-size: 36px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates {
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates:last-child {
+  padding-bottom: 1.5em;
+}
+
+.marafon-after-finishing-title {
+  font-size: 32px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+section.cid-rCwz8YXjKD div.container div > a  {
+    font-size: 20px !important;
+}
+
+.marafon-main-title {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.marafon-text-description {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+
+.what-will-we-do > p {
+  text-indent: 1em;
+}
+
+.what-will-we-do {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.what-will-we-do p:first-of-type {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.marafon-theme_title-text {
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.marafon-themes_text {
+  font-size: 22px;
+  line-height: 1.2;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+.marafon-themes_text::before {
+  margin-top: 0.2em;
+  margin-left: -2em;
+  width: 1.4em;
+  height: 1.4em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  border-width: .15em;
+  line-height: 1.15em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title {
+  font-size: 30px;
+  line-height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title:not(:first-child) {
+  padding-top: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text {
+  font-size: 22px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text:last-child {
+  padding-bottom: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_numbers {
+  font-size: 24px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates {
+  font-size: 24px;
+  line-height: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates:last-child {
+  padding-bottom: 1.5em;
+}
+
+.marafon-after-finishing-title {
+  font-size: 28px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: center!important;
+}
+
+}
+
+
+@media only screen and (max-width:540px) {
+
+.marafon-main-title {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.marafon-text-description {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.what-will-we-do {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+
+}
+
+@media only screen and (max-width:330px) {
+
+ section.cid-rCwz8YXjKD div.container div > a {
+    font-size: 16px !important;
+}
+
+.marafon-main-title {
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.marafon-text-description {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.marafon-after-finishing-title {
+  font-size: 22px;
+  justify-content: center!important;
+}
+
+.what-will-we-do {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.marafon-theme_title-text {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.marafon-themes_text {
+  font-size: 18px;
+  line-height: 1.2;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+
+.cid-rCwz8YXjKaadas .how-where-title {
+  font-size: 24px;
+  line-height: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cid-rCwz8YXjKaadas .how-where-title:not(:first-child) {
+  padding-top: 2em;
+}
+
+.cid-rCwz8YXjKaadas .how-where_text {
+  font-size: 18px;
+}
+
+
+.cid-rCwz8YXjKaadas .how-where_numbers {
+  font-size: 20px;
+}
+
+.cid-rCwz8YXjKaadas .how-where_dates {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+
+.marafon-after-finishing-title {
+  font-size: 24px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: center!important;
+}
+
+}
