@@ -17,8 +17,17 @@
     max-height: max-content;
 
 }
+    .cid-rzSubsXLCL .dropdown .dropdown-menu .dropdown-item {
+    white-space: normal;
+}
+    .cid-rzSubsXLCL .navbar-toggleable-sm .navbar-collapse {
+        width: 100vw;
+    }
+
+
 
 }
+
 
 
 /*.cid-rzSubsXLCL button.navbar-toggler .hamburger span:nth-child(1)*/
@@ -565,6 +574,12 @@ color: rgba(169, 79, 116, 0.5);
     .footer-contacts {
         font-size: 20px;
     }
+
+    
+.cid-rzSubsXLCL .dropdown .dropdown-menu .dropdown-item {
+    white-space: normal;
+    padding: 0 0 0 0 !important; 
+}
 
 }
 
