@@ -206,21 +206,21 @@
 }
 
 .cid-rA3iL7ltMW .correction-prepared-for-you-items {
-
-    /*font-size: 20px;*/
-    font-family: "Intro";
-    color: white;
-    text-shadow: 0px 10px 0px rgba(36, 36, 36, 0.1);
-    text-transform: uppercase;
-    text-align: center;
+  font-size: 40px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  cursor: auto;
 }
-
+/*
 .correction-prepared-for-you--hover-effect:hover {
     transition: background-color .2s ease-in-out;
     background-color: rgba(200, 124, 163, .5);
     -webkit-border-radius: 0;
     border-radius: 0;
-}
+}*/
 
 .cid-rzSzBBUp5h .feedback-big-text {
     font-size: 28px;
@@ -444,22 +444,7 @@
         text-align: center;
     }
 
-    .cid-rA3iL7ltMW .correction-prepared-for-you-items {
-
-        /*font-size: 20px;*/
-        font-family: "Intro";
-        color: white;
-        text-shadow: 0px 10px 0px rgba(36, 36, 36, 0.1);
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .correction-prepared-for-you--hover-effect:hover {
-        transition: background-color .2s ease-in-out;
-        background-color: rgb(200, 124, 163);
-        -webkit-border-radius: 0;
-        border-radius: 0;
-    }
+  
 
     .cid-rzSzBBUp5h .feedback-big-text {
         font-size: 20px;
@@ -625,7 +610,7 @@ font-size: 42px;
   padding-left: 2rem;
 }
 
-.about-me_marafon-title {
+.about-me_marafon-title,  {
    font-size: 58px;
   font-family: "Intro";
   color: rgb(169, 79, 116);
@@ -734,7 +719,7 @@ nav.navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fix
     */
 
 
-.marafon-main-title {
+.marafon-main-title, .cost-of-participation_title {
   font-size: 58px;
   font-family: "Intro";
   color: white;
@@ -753,12 +738,14 @@ nav.navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fix
 }
 
 
-section.cid-rCwz8YfsfXjKD.mbr-fullscreen {
+section.cid-rCwz8YfsfXjKD {
  background-color: rgb(169, 79, 116);
  color: #FFF;
  
  align-items: center;
  -webkit-align-items: start;
+ padding-top: 4em;
+ padding-bottom: 4em;
 }
 
 
@@ -792,10 +779,80 @@ section.cid-rCwz8YXjK.mbr-fullscreen {
   font-family: "Intro";
   color: #FFF;
   line-height: 1.4;
+}
+
+.marafon-for-you-if_title-text{    
+font-size: 58px;
+font-family: "calibri";
+font-weight: bold;
+  color: #FFF;
+  line-height: 1.4;
+}
+
+.after-28-days_img1::before {
+    background: url(images/icons/Yin-Yang-two-hearts.png);
+}
+
+.after-28-days_img2::before {
+    background: url(images/icons/compass.png);
+}
+
+.after-28-days_img3::before {
+    background: url(images/icons/yoga-woman.png);
+}
+
+.after-28-days_img4::before {
+    background: url(images/icons/3stars.png);
+}
+
+.after-28-days_text::before {
+    content: " ";
+    height: 3em;
+    width: 3em;
+    /*background: url(images/icons/compass.png);*/
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -0.5em;
+    margin-left: -4em;
+    display: block;
+    position: absolute;
 
 }
 
-.marafon-themes_text {
+.after-28-days-title {
+    
+  font-size: 75px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  font-weight: bold;
+  /*font-weight: normal;*/
+  line-height: 1em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
+
+
+.after-28-days_text {
+    
+ font-size: 40px;
+  font-family: "Calibri";
+  font-weight: bold;
+  color: rgb(169, 79, 116);
+  line-height: 1;
+  text-align: left;
+  margin-left: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+
+
+.marafon-theme_text, .marafon-for-you-if_text {
  font-size: 40px;
  font-family: "Calibri";
   color: rgb(249, 249, 249);
@@ -806,11 +863,16 @@ section.cid-rCwz8YXjK.mbr-fullscreen {
   padding-left: 3em;    
 }
 
+
+
+
+
+
 section {
     counter-reset: section;   
 }
 
-.marafon-themes_text::before {
+.marafon-theme_text::before {
     margin-top: 0.2em;
     margin-left: -2em;
     display: block;
@@ -858,7 +920,6 @@ padding-top: 2em;
   color: rgb(169, 79, 116);
   line-height: 1.063;
   text-align: left;
-  font-weight: bold;
 
 }
 
@@ -937,14 +998,21 @@ font-size: 50px;
   line-height: 1.4;
 }
 
-.marafon-themes_text {
+.marafon-for-you-if_title-text{    
+font-size: 52px;
+}
+
+.marafon-theme_text, .marafon-for-you-if_text {
   font-size: 36px;
   line-height: 1.8;
   padding-top: 1em;
   padding-left: 2em;
 }
+ .after-28-days_text {
+  font-size: 36px;
+}
 
-.marafon-themes_text::before {
+.marafon-theme_text::before {
   margin-top: 0.2em;
   margin-left: -2em;
   width: 1.4em;
@@ -1021,14 +1089,17 @@ font-size: 50px;
   line-height: 1.4;
 }
 
-.marafon-themes_text {
-  font-size: 30px;
-  line-height: 1.8;
-  padding-top: 1em;
-  padding-left: 2em;
+.marafon-for-you-if_title-text{    
+font-size: 46px;
+
 }
 
-.marafon-themes_text::before {
+.marafon-theme_text, .marafon-for-you-if_text, .after-28-days_text {
+  font-size: 30px;
+
+}
+
+.marafon-theme_text::before {
   margin-top: 0.2em;
   margin-left: -2em;
   width: 1.4em;
@@ -1077,6 +1148,16 @@ font-size: 50px;
   padding-bottom: 1em;
 }
 
+/*--- --- ---*/
+.cid-rA3iL7ltMW .correction-prepared-for-you-items {
+  font-size: 36px;
+  }
+
+.after-28-days-title {
+ font-size: 60px;
+ }
+
+
 }
 
 
@@ -1117,14 +1198,18 @@ section.cid-rCwz8YXjKD div.container div > a  {
   font-weight: normal;
 }
 
-.marafon-themes_text {
-  font-size: 22px;
-  line-height: 1.2;
-  padding-top: 1em;
-  padding-left: 2em;
+.marafon-for-you-if_title-text{    
+font-size: 36px;
+
 }
 
-.marafon-themes_text::before {
+.marafon-theme_text, .marafon-for-you-if_text, .after-28-days_text  {
+  font-size: 22px;
+  line-height: 1.2;
+
+}
+
+.marafon-theme_text::before {
   margin-top: 0.2em;
   margin-left: -2em;
   width: 1.4em;
@@ -1174,6 +1259,15 @@ section.cid-rCwz8YXjKD div.container div > a  {
   justify-content: center!important;
 }
 
+/*--- ---  ---*/
+
+.cid-rA3iL7ltMW .correction-prepared-for-you-items {
+  font-size: 32px;
+  }
+.after-28-days-title {
+ font-size: 54px;
+ }
+
 }
 
 
@@ -1194,6 +1288,29 @@ section.cid-rCwz8YXjKD div.container div > a  {
   line-height: 1.4;
 }
 
+/*--- ---  ---*/
+
+.cid-rA3iL7ltMW .correction-prepared-for-you-items {
+  font-size: 30px;
+  }
+
+  .after-28-days_text {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-left: 1.5em;
+    padding-top: 1em;
+  padding-left: 2em;
+  
+}
+
+  .after-28-days_text::before {
+    margin-top: 0.5em;
+      margin-left: -3.5em;
+  }
+
+   .after-28-days-title {
+    font-size: 48px;
+    }
 
 }
 
@@ -1229,7 +1346,12 @@ section.cid-rCwz8YXjKD div.container div > a  {
   font-weight: normal;
 }
 
-.marafon-themes_text {
+.marafon-for-you-if_title-text{    
+font-size: 30px;
+
+}
+
+.marafon-theme_text, .marafon-for-you-if_text, .after-28-days_text {
   font-size: 18px;
   line-height: 1.2;
   padding-top: 1em;
@@ -1270,4 +1392,101 @@ section.cid-rCwz8YXjKD div.container div > a  {
   justify-content: center!important;
 }
 
+/*--- --- --*/
+
+
+.cid-rA3iL7ltMW .correction-prepared-for-you-items {
+  font-size: 18px;
+  }
+
+.after-28-days-title {
+ font-size: 42px;
+ }
+
 }
+
+
+/*------- --------  -------*/
+
+
+
+
+.cid-rA3iL7ltMW.correction-prepared-for-you {
+    background: #FFF;
+}
+
+.mbr-figure img, .card-img img {
+    width: auto;
+}
+
+
+.cid-rA3iL7ltMW .card-img {
+    min-height: 200px;
+}
+
+
+/*
+.marafon-theme_title-text {
+ font-size: 58px;
+ font-family: "Calibri";
+  color: rgb(249, 249, 249);
+  font-weight: bold;
+  line-height: 1.8;
+  padding-top: 1em;
+  padding-left: 3em;    
+}
+*/
+
+
+
+.marafon-for-you-if_text {
+/* font-size: 40px;
+ font-family: "Calibri";
+  color: rgb(249, 249, 249);
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 3em;   */ 
+}
+
+
+
+.marafon-for-you-if_text::before {
+    content: " ";
+    height: 2em;
+    width: 2em;
+    background: url(images/icons/check-mark-in-a-circle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.2em;
+    margin-left: -2em;
+    display: block;
+    position: absolute;
+
+}
+
+.cost-of-participation_title {
+
+
+}
+
+.cost-of-participation_package-box {
+background: #FFF;
+padding: 1em;
+margin: 1em;
+
+}
+
+.cost-of-participation_packet-name {
+
+
+}
+
+.cost-of-participation_packet-name {
+
+
+}
+
+
