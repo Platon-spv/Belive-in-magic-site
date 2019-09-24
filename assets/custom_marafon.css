@@ -661,6 +661,16 @@ font-size: 42px;
         width: 100vw;
     }
 
+    .about-me_marafon-title {
+      padding-top: 1em;
+        
+    }
+
+    .about-me_marafon-title2 {
+      padding-top: 0em;
+        
+    }
+
 }
 
 
@@ -672,6 +682,10 @@ font-size: 42px;
 
     .about-me_marafon-title {
       padding-top: 30px;
+      padding-bottom: 0px;
+}
+    .about-me_marafon-title2{
+      padding-top: 0px;
       padding-bottom: 30px;
 }
 
@@ -694,7 +708,7 @@ font-size: 42px;
     .about-me_marafon-title {
         font-size: 18px;
         padding-top: 10px;
-      padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 
 }
@@ -2000,5 +2014,7 @@ padding-top: 2em;
 }
 
 
-
+#modalContactForm .modal-footer {
+    border-top:none;
+    }
 
