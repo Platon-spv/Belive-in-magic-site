@@ -16,4 +16,4 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
 
 
 
-// $("#popup_clic_me").click()
+// $("#connect_to_marafon").click()

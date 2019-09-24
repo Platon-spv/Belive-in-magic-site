@@ -222,12 +222,6 @@
     border-radius: 0;
 }*/
 
-.cid-rzSzBBUp5h .feedback-big-text {
-    font-size: 28px;
-    font-family: "Intro";
-    color: hsva(335, 53%, 66%, 1.);
-    text-align: center;
-}
 
 .cid-rA346WK9bM .text-about-marafon {
     font-family: "Calibri";
@@ -563,7 +557,14 @@
 }
 
 
-#carousel-example-multi > div > div > div {
+/*#carousel-example-multi > div > div > div {
+    padding-left: 0;    
+    padding-right: 0; 
+
+}
+*/
+
+.carousel.slide.carousel-multi-item.v-2 > div > div > div {
     padding-left: 0;    
     padding-right: 0; 
 
@@ -725,7 +726,8 @@ nav.navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fix
   font-family: "Intro";
   color: white;
   font-weight: normal;
-  
+text-align: center;
+
   line-height: 1.286;
 }
 
@@ -1269,6 +1271,7 @@ font-size: 36px;
  font-size: 54px;
  }
 
+
 }
 
 
@@ -1312,6 +1315,8 @@ font-size: 36px;
    .after-28-days-title {
     font-size: 48px;
     }
+
+
 
 }
 
@@ -1403,6 +1408,8 @@ font-size: 30px;
 .after-28-days-title {
  font-size: 42px;
  }
+
+
 
 }
 
@@ -1497,12 +1504,6 @@ font-size: 30px;
     line-height: 1.5;
 }
 
-.cost-of-participation_title {
-    font-family: "Calibri";
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-}
 
 .cost-of-participation_packet-name {
     font-family: "Calibri";
@@ -1709,6 +1710,25 @@ font-size: 30px;
   text-align: center;
  }
 
+ #modalContactForm input::-ms-input-placeholder {
+  
+   font-size: 32px;
+  font-family: "Calibri";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+ }
+ #modalContactForm textarea::-ms-input-placeholder {
+  
+   font-size: 32px;
+  font-family: "Calibri";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+ }
+
  #modalContactForm .modal-dialog,  #modalContactForm .modal-content {
     height: auto;
 }
@@ -1747,3 +1767,238 @@ font-size: 30px;
 .btn-success.focus, .btn-success:focus {
     box-shadow:none;
 }
+
+.mx_custom {
+margin-right: 3rem!important;
+margin-left: 3rem!important;
+}
+
+
+/*--------------------*/
+
+@media only screen and (max-width:1050px) {
+
+}
+
+
+
+@media (max-width: 991px) {
+
+
+.cid-rA3iL7ltMW {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 42px;
+
+}
+
+.cid-rA346WK9bM .text-about-marafon {
+    font-size: 18px;
+}
+
+.cid-rA3iL7ltMW .cost-of-participation_packet-text {
+    font-size: 28px;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+ .mx_custom {
+margin-right: 0.25rem!important;
+margin-left: 0.25rem!important;
+}
+
+
+ #modalContactForm .form-control {
+    font-size: 22px;
+
+}
+
+#modalContactForm .form-control::placeholder {
+      font-size: 22px;
+ }
+#modalContactForm input::-ms-input-placeholder {
+      font-size: 22px;
+ }
+ #modalContactForm textarea::-ms-input-placeholder {
+      font-size: 22px;
+ }
+#modalContactForm input::-webkit-input-placeholder {
+      font-size: 22px;
+ }
+ #modalContactForm textarea::-webkit-input-placeholder {
+      font-size: 22px;
+ }
+
+
+#modalContactForm .btn {
+     font-size: 18px; 
+}
+
+.cid-rA3iL7ltMW .cost-of-participation_packet-text {
+    font-size: 24px;
+}
+
+.frequently-asked-questions {
+    font-size: 32px;
+}
+}
+
+
+
+@media (max-width:576px) {
+    
+.services2.cid-rA3iL7ltMW  .col-12 {
+    max-width: 96%;}
+
+ .cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 36px;
+
+}   
+
+.cid-rA346WK9bM .text-about-marafon {
+    font-size: 16px;
+}
+
+
+}
+
+
+@media  (max-width:540px) {
+
+ .popup_join-now_text {
+padding-top: 1em;
+    font-size: 28px;
+
+ }
+
+
+.cid-rA3iL7ltMW {
+    padding-top: 1px;
+    padding-bottom: 25px;
+}
+
+.cost-of-participation_title {
+    font-size: 36px;
+    padding-top: 1em;
+
+}
+
+.cid-rA3iL7ltMW  .pb-5, .py-5 {
+    padding-bottom: 0rem!important;
+}
+.cid-rA3iL7ltMW .cost-of-participation_package-box {
+    padding: 0.5em;
+}
+
+.cid-rA3iL7ltMW .cost-of-participation_packet-text {
+    font-size: 22px;
+}
+
+.cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 28px;
+
+}
+
+.frequently-asked-questions {
+    font-size: 26px;
+}
+
+
+
+.cid-rzSzBBUp5h .frequently-asked-questions_answer, .cid-rzSzBBUp5h .frequently-asked-questions_question {
+       font-size: 22px;
+       }
+
+.content2.cid-rzSzBBUp5h .mbr-fonts-style {
+    
+    padding: 0;
+}
+
+.dfsgsheKHLK {
+    font-size: 28px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:330px) { 
+        .popup_join-now_text {
+padding-top: 2em;
+    font-size: 20px;
+
+ }
+
+ #modalContactForm .form-control {
+    font-size: 18px;
+
+}
+
+#modalContactForm .form-control::placeholder {
+      font-size: 18px;
+ }
+#modalContactForm input::-ms-input-placeholder {
+      font-size: 18px;
+ }
+ #modalContactForm textarea::-ms-input-placeholder {
+      font-size: 18px;
+ }
+#modalContactForm input::-webkit-input-placeholder {
+      font-size: 18px;
+ }
+ #modalContactForm textarea::-webkit-input-placeholder {
+      font-size: 18px;
+ }
+
+.cost-of-participation_title {
+    font-size: 28px;
+
+}
+
+.cid-rA3iL7ltMW .cost-of-participation_package-box {
+    padding: 0.25em;
+}
+
+.cid-rA3iL7ltMW .cost-of-participation_packet-text {
+    font-size: 18px;
+}
+
+.cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 20px;
+
+}
+
+.cid-rA346WK9bM .text-about-marafon {
+    font-size: 14px;
+}
+
+.frequently-asked-questions {
+    font-size: 22px;
+    }
+
+
+.cid-rzSzBBUp5h .frequently-asked-questions_answer, .cid-rzSzBBUp5h .frequently-asked-questions_question {
+       font-size: 17px;
+       }
+
+.content2.cid-rzSzBBUp5h .mbr-fonts-style {
+    
+    padding: 0;
+}
+
+.dfsgsheKHLK {
+    font-size: 22px;
+    }
+
+}
+
+
+
+
