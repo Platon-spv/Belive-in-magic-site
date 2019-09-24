@@ -295,8 +295,9 @@
 }
 
 .mbr-form .input-group-btn button[type="submit"]:hover {
-    background-color: rgb(255, 255, 255) !important;
-    color: hsva(335, 53%, 66%, 1.) !important;
+    background-color: #c7af !important;
+   color: rgb(255, 255, 255) !important;
+
 }
 
 
@@ -1467,26 +1468,282 @@ font-size: 30px;
 
 }
 
+
+
+.cid-rA3iL7ltMW h4.cost-of-participation_packet-name {
+    text-align: center;
+    color: rgb(169, 79, 116);
+    font-weight: bold;
+
+
+
+}
+
+.cid-rA3iL7ltMW p.cost-of-participation_packet-text {
+    text-align: center;
+    color: rgb(169, 79, 116);
+    font-weight: bold;
+
+
+}
+
+.cid-rA3iL7ltMW  .cost-of-participation_package-box {
+    background: #FFF;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 10px 16px 10px rgba(42, 42, 42, 0.24);
+    margin-bottom: 3em;
+    padding: 3em;
+    line-height: 1.5;
+}
+
 .cost-of-participation_title {
-
-
-}
-
-.cost-of-participation_package-box {
-background: #FFF;
-padding: 1em;
-margin: 1em;
-
+    font-family: "Calibri";
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .cost-of-participation_packet-name {
+    font-family: "Calibri";
+    font-size: 40px;
+    text-align: center;
+}
 
+.cost-of-participation_packet-text {
+    font-family: "Calibri";
+    font-size: 33px;
+    text-align: center;
+}
+
+.cid-rA3iL7ltMW .card-box .cost {
+    font-family: "Calibri";
+    font-size: 36px;
+    text-align: center;
+    color: rgb(169, 79, 116);
+        font-weight: bold;
+}
+
+.cid-rA3iL7ltMW .card-box .cost>span {
+    font-family: "Calibri";
+    font-size: 40px;
+    text-align: center;
+    color: rgb(169, 79, 116);
+        font-weight: bold;
 
 }
 
-.cost-of-participation_packet-name {
 
+.cost-of-participation-btn {
+      border-radius: 10px  !important;
+  background-color: rgb(169, 79, 116) !important;
+  color: white  !important;
+   border: 0 !important;
+      font-size: 28px;
+    line-height: 1.25;
+}
+
+.cost-of-participation-btn:hover, 
+.cost-of-participation-btn:active {
+    background-color: #c7af !important;
+    border: 0 !important;
+    color: white  !important;
+}
+
+/*.cost-of-participation-btn:hover {
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5) !important;
+    -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5) !important;
+  background-color: rgb(169, 79, 116) !important;
+  color: white  !important;
+}
+*/
+
+
+.cid-rzSzBBUp5h .feedback-big-text {
+    font-size: 50px;
+    font-family: "Intro";
+      color: rgb(169, 79, 116);
+    text-align: center;
+}
+
+
+
+.cid-rA346WK9bM  {
+    font-size: 50px;
+    font-family: "Intro";
+      color: rgb(169, 79, 116);
+    text-align: center;
+       background-color: rgb(239, 222, 216);
+       /*background-color: #ffcccc;*/
+}
+
+
+
+.cid-rA346WK9bM .text-about-marafon {
+  font-size: 24px;
+  font-family: "Calibri";
+  color: rgb(170, 82, 118);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.333;
+  text-align: left;
+   padding: 1.5em;
+   background-color: rgba(255, 255, 255, .7);
+    }
+
+
+
+.cid-rA346WK9bM .text-about-marafon-author {
+    font-weight: bold;
+    text-align: right;
+    color: #D0427C;
+}
+
+
+.feedback-screenshots .card {
+    margin-bottom: 1em;
+}
+
+
+.feedback-screenshots .card img {
+    width: 100%;
+}
+
+
+.frequently-asked-questions {
+ font-size: 40px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1.8;
+  text-align: center;
+  
+}
+
+
+
+.cid-rzSzBBUp5h .frequently-asked-questions_question {
+ font-size: 32px;
+  font-family: "Calibri";
+  color: #FFF;
+  line-height: 1.8;
+    border-radius: 10px;
+  background-color: rgb(169, 79, 116);
+  box-shadow: 0px 10px 19.68px 4.32px rgba(42, 42, 42, 0.24);
+  font-weight: bold;
+  padding: 1em;
+
+ 
+}
+.cid-rzSzBBUp5h .frequently-asked-questions_answer {
+ font-size: 32px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  line-height: 1.8;
+  font-weight: bold;
+  padding: 1em;
 
 }
 
 
+
+.dfsgsheKHLK {
+  font-size: 42px;
+  font-family: "Calibri";
+  color: rgb(169, 79, 116);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center; 
+  margin-bottom: 2em;
+}
+
+
+.footer-submit-btn-style:hover,
+.footer-submit-btn-style:focus {
+    color: rgb(169, 79, 116) !important;
+}
+
+
+/*-------- popup-------*/
+
+
+ .popup_join-now_text {
+       font-size: 32px;
+  font-family: "Intro";
+  color: rgb(169, 79, 116);
+  line-height: 1.125;
+  text-align: center;
+ }
+
+
+ #modalContactForm .form-control {
+    border-radius: 10px;
+ background-color: rgb(169, 79, 116);
+  opacity: 0.7;
+  /*height: 190px;*/
+  /*height: 70px;*/
+   font-size: 32px;
+  font-family: "Calibri";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+ }
+
+ #modalContactForm .form-control:focus {
+
+    background-color: rgba(169, 79, 116, .7);
+    border: 3px solid rgb(169, 79, 116) !important;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+ }
+
+ #modalContactForm .form-control::placeholder {
+  
+   font-size: 32px;
+  font-family: "Calibri";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: center;
+ }
+
+ #modalContactForm .modal-dialog,  #modalContactForm .modal-content {
+    height: auto;
+}
+
+ #modalContactForm .modal-header {
+    border: none;
+}
+
+ #modalContactForm .form-control {
+    min-height: 2em;
+    padding: 0;
+    }
+
+
+#modalContactForm .close {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 0.5;
+    color: rgb(169, 79, 116);
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    right: 0.5em;
+    position: absolute;
+}
+
+#modalContactForm .close:hover {
+    color: rgb(169, 79, 116);
+    opacity: 1;
+    
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow:none;
+}

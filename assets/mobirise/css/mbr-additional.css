@@ -216,8 +216,8 @@ body {
 .btn-success:focus,
 .btn-success.focus,
 .btn-success.active {
-  color: #3f3c03 !important;
-  background-color: #eadd0a !important;
+  color: #FFF !important;
+  background-color: #c87ca3 !important;
   border-color: #eadd0a !important;
 }
 .btn-success.disabled,
@@ -540,8 +540,8 @@ a.text-black:focus {
 }
 .mbr-section-btn a.btn:not(.btn-form):hover,
 .mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3) !important;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3) !important;
 }
 .mbr-gallery-filter li a {
   border-radius: 100px !important;

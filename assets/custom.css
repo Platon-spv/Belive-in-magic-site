@@ -306,7 +306,7 @@ color: rgba(169, 79, 116, 0.5);
 
 .mbr-form .input-group-btn button[type="submit"]:hover {
     background-color: rgb(255, 255, 255) !important;
-    color: hsva(335, 53%, 66%, 1.) !important;
+    color: rgb(169, 79, 116) !important;
 }
 
 
