@@ -200,6 +200,7 @@ color: rgba(169, 79, 116, 0.5);
     text-indent: 1.5em;    /* Отступ первой строки */
     text-align: justify;    /* Выравнивание по ширине */
     padding-left: 4em;
+     font-size: 34px;
 }
 
 .about-me-title {
@@ -439,6 +440,7 @@ color: rgba(169, 79, 116, 0.5);
         text-align: justify;        /* Выравнивание по ширине */
         padding-left: 3em;
         padding-right: 1em;
+        font-size: 28px;
     }
 
     .about-me-title {
@@ -531,6 +533,13 @@ color: rgba(169, 79, 116, 0.5);
     .cid-rzSubsXLCL .navbar {
         padding-bottom: 0;
     }
+
+
+.about-me {
+
+     font-size: 22px;
+}
+
 
 }
 
