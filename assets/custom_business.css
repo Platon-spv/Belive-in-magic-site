@@ -1,24 +1,21 @@
-
-
 .cid-rCwz8YXjK {
     text-align: left;
     text-indent: 2em;
-    
 }
+
 .cid-rCwz8YXjK  .correction-text {
     font-size: 36px;
     text-align: left;
-    
-    
 }
+
 .cid-rCwz8YXjK  .cost {
     font-family: "Calibri";
     font-size: 36px;
     text-align: center;
     color: rgb(169, 79, 116);
-        font-weight: bold;
-        text-indent: 0;
-        margin-top: 1em;
+    font-weight: bold;
+    text-indent: 0;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
@@ -27,46 +24,120 @@
     font-size: 40px;
     text-align: center;
     color: rgb(169, 79, 116);
-        font-weight: bold;
+    font-weight: bold;
+}
+
+
+
+.busness_left-flower {
+        margin-left: 7em;
 
 }
 
 
-@media (max-width: 991px) {
+.busness_left-flower::before {
+
+    content: " ";
+    max-height: 166px;
+    max-width: 174px;
+    height: 5em;
+    width: 5em;
+    background: url(./images/icons/cherry-blossom.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+    margin-left: 0;
+    /* vertical-align: middle; */
+    /* border: 1px solid black; */
+    display: block;
+    position: absolute;
+    margin-left: -7em;
+    margin-top: 7em;
+}
+
+
+ .what-will-we-do .business-price p:first-of-type  {
+    padding-bottom: 0;
+}
+
+
+ .what-will-we-do .business-price p  {
+       text-indent: 0;
+}
+
+
+.cid-rCwz8YXjK .btn-wrapper {
+    text-indent: 0;}
+
+
+.cid-rCwz8YXjK .busness_left-flower ol li {
+    
+    text-indent: 0;
+}
+
+
+
+.cid-rCwz8YXjK .busness_left-flower {
+    font-size: 32px;
+}
+
+
+@media (max-width:991px) {
     .cid-rCwz8YXjK .correction-text {
+        font-size: 28px;
+    }
+    .cid-rCwz8YXjK .busness_left-flower {
     font-size: 28px;
-    
 }
-    
+
 }
-@media (max-width: 768px) {
+
+@media (max-width:768px) {
     .cid-rCwz8YXjK .correction-text {
-    font-size: 26px;
-    
+        font-size: 24px;
+    }
+
+
+    .cid-rCwz8YXjK  .busness_left-flower::before {
+    height: 2em;
+    width: 2em;
+    margin-left: -2em;
+    margin-top: 7em;   
+    }
+    .cid-rCwz8YXjK .busness_left-flower {
+    font-size: 22px;
+    margin-left: 2em;
 }
-    
+
+
 }
-@media (max-width: 540px) {
+
+@media (max-width:540px) {
     .cid-rCwz8YXjK .correction-text {
-    font-size: 24px;
-    
-}
-    
-}
-@media (max-width: 330px) {
-    .cid-rCwz8YXjK .correction-text {
+        font-size: 22px;
+    }
+
+    .cid-rCwz8YXjK  .busness_left-flower::before {
+
+    margin-left: -1.5em;
+    margin-top: 10em;   
+    }
+    .cid-rCwz8YXjK .busness_left-flower {
     font-size: 20px;
-    
-}
-    
+    margin-left: 1.5em;
 }
 
 
 
+}
 
+@media (max-width:330px) {
+    .cid-rCwz8YXjK .correction-text {
+        font-size: 18px;
+    }
+    .cid-rCwz8YXjK .busness_left-flower {
+    font-size: 16px;
+}
 
-
-.busness_right-flower {
-    
-    
 }
