@@ -25,7 +25,7 @@ document.getElementById("business_btn").onclick = function() {
 
   if (window.document.forms.form_business.reportValidity()) {
 
-    var body_msg =  '<h1>Заявка на "Бизнес</h1>": <h3> <br>' +
+    var body_msg =  '<h1>Заявка на "Бизнес":</h1> <br> <h3> ' +
     document.forms.form_business.name.placeholder + ": " + document.forms.form_business.name.value + ";<br>"+
      document.forms.form_business.tel.placeholder + ": " + document.forms.form_business.tel.value + ";<br>"+
       document.forms.form_business.facebook.placeholder + ": " + document.forms.form_business.facebook.value + ";<br>"+
