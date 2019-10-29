@@ -25,6 +25,11 @@ document.getElementById("business_btn").onclick = function() {
 
   if (window.document.forms.form_business.reportValidity()) {
 
+    var body_msg =  '<h1>Заявка на "Бизнес</h1>": <h3> <br>' +
+    document.forms.form_business.name.placeholder + ": " + document.forms.form_business.name.value + ";<br>"+
+     document.forms.form_business.tel.placeholder + ": " + document.forms.form_business.tel.value + ";<br>"+
+      document.forms.form_business.facebook.placeholder + ": " + document.forms.form_business.facebook.value + ";<br>"+
+       document.forms.form_business.message.placeholder + ": " + document.forms.form_business.message.value + ";</h3><br>";
 
     Email.send({
       Host: "smtp.elasticemail.com",
@@ -32,8 +37,8 @@ document.getElementById("business_btn").onclick = function() {
       Password: "f8d41354-76f1-41de-99af-9390799b0c8a",
       To: 'believe.in.magic.site@gmail.com',
       From: "believe.in.magic.site@gmail.com",
-      Subject: "Бизнесс",
-      Body: "Test message PLPLPL ПЕРЕСЫЛКИ 3 "
+      Subject: "Бизнес",
+      Body: body_msg
     }).then(
       message => console.log(message)
     );
@@ -42,6 +47,35 @@ document.getElementById("business_btn").onclick = function() {
   };
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Email.send({
 //     Host : "smtp.elasticemail.com",
