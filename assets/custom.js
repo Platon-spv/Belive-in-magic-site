@@ -59,6 +59,8 @@ function SendMail(subj, msg) {
       if (message === "OK") {
         document.getElementById("modal_thanks-Sending_text").hidden = true;
         document.getElementById("modal_thanks-Done").className = "";
+      } else {
+        document.getElementById("modal_thanks-Sending_text").textContent = "Ошибка: " + message;
       }
       console.log(message)
     }
