@@ -50,7 +50,7 @@ function SendMail(subj, msg) {
     Host: "smtp.gmail.com",
     Username: "believe.in.magic.site@gmail.com",
     Password: "nKJHkjh8ujh98",
-    To: 'believe.in.magic.site@gmail.com',
+    To: 'irina.manujlova@gmail.com',
     From: "believe.in.magic.site@gmail.com",
     Subject: subj,
     Body: msg
