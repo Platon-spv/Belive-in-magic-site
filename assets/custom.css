@@ -603,3 +603,22 @@ color: rgba(169, 79, 116, 0.5);
    position: fixed;
     bottom: -100px;
 }
+
+
+
+.cost-of-participation-btn {
+      border-radius: 10px  !important;
+  background-color: rgb(169, 79, 116) !important;
+  color: white  !important;
+   border: 0 !important;
+      font-size: 28px;
+    line-height: 1.25;
+    margin: auto;
+}
+
+.cost-of-participation-btn:hover, 
+.cost-of-participation-btn:active {
+    background-color: #c7af !important;
+    border: 0 !important;
+    color: white  !important;
+}

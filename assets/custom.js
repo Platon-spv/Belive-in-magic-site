@@ -15,13 +15,32 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
 });
 
 
-  document.getElementById("business_thanks_btn").onclick = function (event) {   
-    event.preventDefault();
-    document.getElementById("business_thanks_close_btn").click();
+document.getElementById("modal_thanks_btn").onclick = function(event) {
+  event.preventDefault();
+  document.getElementById("modal_thanks_close_btn").click();
 
-  }
+}
 
 
+//footer
+document.getElementById("footer_send_btn").onclick = function(event) {
+  event.preventDefault();
+  if (window.document.forms.form_footer.reportValidity()) {
+
+    var body_msg = '<h1>"СВЯЖИСЬ СО МНОЙ" ( "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
+      "Фамилия и имя: " + document.forms.form_footer.name.value + ";<br>" +
+      "Номер телефона: " + document.forms.form_footer.phone.value + ";<br>" +
+      "Ссылка на facebook: " + document.forms.form_footer.facebook_link.value + ";<br>" +
+      "Сообщение: " + document.forms.form_footer.message.value + ";</h3><br>";
+
+    var subject_msg = "СВЯЖИСЬ СО МНОЙ";
+
+    SendMail(subject_msg, body_msg);
+
+    return false;
+  };
+
+}
 
 
 function SendMail(subj, msg) {
@@ -53,7 +72,7 @@ if (document.getElementById("business_btn")) {
 
 
   document.getElementById("business_btn").onclick = function(event) {
-     event.preventDefault();
+    event.preventDefault();
     if (window.document.forms.form_business.reportValidity()) {
 
       var body_msg = '<h1>Заявка на "Бизнес":</h1> <br> <h3> ' +
@@ -72,23 +91,67 @@ if (document.getElementById("business_btn")) {
   }
 }
 
+//correction
+if (document.getElementById("correction_btn")) {
 
-//footer
-document.getElementById("footer_send_btn").onclick = function(event) {
+
+  document.getElementById("correction_btn").onclick = function(event) {
     event.preventDefault();
-  if (window.document.forms.form_footer.reportValidity()) {
+    if (window.document.forms.form_correction.reportValidity()) {
 
-    var body_msg = '<h1>Сообщение из контактной формы "СВЯЖИСЬ СО МНОЙ" внизу странички " ( "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
-       "Фамилия и имя: " + document.forms.form_footer.name.value + ";<br>" +
-       "Номер телефона: " + document.forms.form_footer.phone.value + ";<br>" +
-       "Ссылка на facebook: " + document.forms.form_footer.facebook_link.value + ";<br>" +
-       "Сообщение: " + document.forms.form_footer.message.value + ";</h3><br>";
+      var body_msg = '<h1>Заявка на "Энергокоррекцию":</h1> <br> <h3> ' +
+        document.forms.form_correction.name.placeholder + ": " + document.forms.form_correction.name.value + ";<br>" +
+        document.forms.form_correction.tel.placeholder + ": " + document.forms.form_correction.tel.value + ";<br>" +
+        document.forms.form_correction.facebook.placeholder + ": " + document.forms.form_correction.facebook.value + ";<br>" +
+        document.forms.form_correction.message.placeholder + ": " + document.forms.form_correction.message.value + ";</h3><br>";
 
-    var subject_msg = "Сообщение из: СВЯЖИСЬ СО МНОЙ";
+      var subject_msg = "Энергокоррекция";
 
-    SendMail(subject_msg, body_msg);
+      SendMail(subject_msg, body_msg);
 
-    return false;
-  };
+      // return false;
+    };
+
+  }
+}
+
+
+//marafon
+if (document.getElementById("marafon_btn")) {
+
+
+  document.getElementById("marafon_btn").onclick = function(event) {
+    event.preventDefault();
+    if (window.document.forms.form_marafon.reportValidity()) {
+
+      var body_msg = '<h1>Заявка на "Марафон":</h1> <br>  ' +
+        '<h2>' + document.getElementById("form_marafon").dataset.package + '</h2> <br> <h3> ' +
+        document.forms.form_marafon.name.placeholder + ": " + document.forms.form_marafon.name.value + ";<br>" +
+        document.forms.form_marafon.tel.placeholder + ": " + document.forms.form_marafon.tel.value + ";<br>" +
+        document.forms.form_marafon.facebook.placeholder + ": " + document.forms.form_marafon.facebook.value + ";<br>" +
+        document.forms.form_marafon.message.placeholder + ": " + document.forms.form_marafon.message.value + ";</h3><br>";
+
+      var subject_msg = "Марафон";
+
+      SendMail(subject_msg, body_msg);
+
+      // return false;
+    };
+
+  }
+
+
+  var CostInf = document.querySelectorAll('#cost_of_participation a');
+
+  CostInf.forEach(function(elem) {
+
+    elem.addEventListener('click', function() {
+      var package = this.getAttribute("data-package")
+      var cost = this.getAttribute("data-cost")
+      document.getElementById("form_marafon").dataset.package = package + " " + cost;
+      console.log(document.getElementById("form_marafon").dataset.package);
+    })
+  })
+
 
 }
