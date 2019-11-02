@@ -26,8 +26,8 @@ document.getElementById("modal_thanks_btn").onclick = function(event) {
 document.getElementById("footer_send_btn").onclick = function(event) {
   event.preventDefault();
   if (window.document.forms.form_footer.reportValidity()) {
-
-    var body_msg = '<h1>"СВЯЖИСЬ СО МНОЙ" ( "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
+    var path = window.location.pathname.replace("/", "") || "manujlova.com";
+    var body_msg = '<h1>"СВЯЖИСЬ СО МНОЙ" ( "' + path + '")</h1> <br> <h3> ' +
       "Фамилия и имя: " + document.forms.form_footer.name.value + ";<br>" +
       "Номер телефона: " + document.forms.form_footer.phone.value + ";<br>" +
       "Ссылка на facebook: " + document.forms.form_footer.facebook_link.value + ";<br>" +
