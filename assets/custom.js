@@ -15,9 +15,14 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function() {
 });
 
 
+  document.getElementById("business_thanks_btn").onclick = function (event) {   
+    event.preventDefault();
+    document.getElementById("business_thanks_close_btn").click();
 
-// $("#connect_to_marafon").click()
-// $("#business_btn").click()
+  }
+
+
+
 
 function SendMail(subj, msg) {
   document.getElementById("modal_close_btn").click();
@@ -73,11 +78,11 @@ document.getElementById("footer_send_btn").onclick = function(event) {
   if (window.document.forms.form_business.reportValidity()) {
     event.preventDefault();
 
-    var body_msg = '<h1>СВЯЖИСЬ СО МНОЙ (контактная форма на страничке "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
-      document.forms.form_footer.name.placeholder + ": " + document.forms.form_footer.name.value + ";<br>" +
-      document.forms.form_footer.phone.placeholder + ": " + document.forms.form_footer.phone.value + ";<br>" +
-      document.forms.form_footer.facebook_link.placeholder + ": " + document.forms.form_footer.facebook_link.value + ";<br>" +
-      document.forms.form_footer.message.placeholder + ": " + document.forms.form_footer.message.value + ";</h3><br>";
+    var body_msg = '<h1>Сообщение из контактной формы "СВЯЖИСЬ СО МНОЙ" внизу странички " ( "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
+       "Фамилия и имя: " + document.forms.form_footer.name.value + ";<br>" +
+       "Номер телефона: " + document.forms.form_footer.phone.value + ";<br>" +
+       "Ссылка на facebook: " + document.forms.form_footer.facebook_link.value + ";<br>" +
+       "Сообщение: " + document.forms.form_footer.message.value + ";</h3><br>";
 
     var subject_msg = "Сообщение из: СВЯЖИСЬ СО МНОЙ";
 
