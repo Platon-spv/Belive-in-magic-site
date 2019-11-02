@@ -53,8 +53,8 @@ if (document.getElementById("business_btn")) {
 
 
   document.getElementById("business_btn").onclick = function(event) {
+     event.preventDefault();
     if (window.document.forms.form_business.reportValidity()) {
-      event.preventDefault();
 
       var body_msg = '<h1>Заявка на "Бизнес":</h1> <br> <h3> ' +
         document.forms.form_business.name.placeholder + ": " + document.forms.form_business.name.value + ";<br>" +
@@ -75,8 +75,8 @@ if (document.getElementById("business_btn")) {
 
 //footer
 document.getElementById("footer_send_btn").onclick = function(event) {
-  if (window.document.forms.form_business.reportValidity()) {
     event.preventDefault();
+  if (window.document.forms.form_footer.reportValidity()) {
 
     var body_msg = '<h1>Сообщение из контактной формы "СВЯЖИСЬ СО МНОЙ" внизу странички " ( "' + window.location.pathname.replace("/", "") + '")</h1> <br> <h3> ' +
        "Фамилия и имя: " + document.forms.form_footer.name.value + ";<br>" +
@@ -88,7 +88,7 @@ document.getElementById("footer_send_btn").onclick = function(event) {
 
     SendMail(subject_msg, body_msg);
 
-    // return false;
+    return false;
   };
 
 }
